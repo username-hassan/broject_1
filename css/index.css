@@ -1,0 +1,54 @@
+/* start my fream work */
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* end my fream work */
+/* start media */
+@media (max-width: 375px) { /*mobile media*/
+    .container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 767px){ /* small screen */
+    .container {
+        width: 90%;
+        background-color: aquamarine;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){ /* midum screen */
+    .container {
+        width: 85%;
+        background-color: aquamarine;
+    }
+}
+
+@media (min-width: 993px) { /* desktop screen */
+    .container {
+        width: 80%;
+        background-color: aquamarine;
+    }
+} 
+/* end media */
